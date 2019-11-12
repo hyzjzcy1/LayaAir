@@ -7,7 +7,7 @@ var matched = require('matched');
 const production = !process.env.ROLLUP_WATCH;
 const gulp = require('gulp');
 const rollup = require('rollup');
-//处理文件流使用的插件
+//处理文件流使用的插件//
 var through = require('through2');
 //合并文件
 var concat = require('gulp-concat'),pump = require('pump');
